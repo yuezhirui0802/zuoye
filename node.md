@@ -138,3 +138,10 @@ git merg gh-pages
 - 克隆线上代码到本地
 可以将线上的代码直接复制到本地，并且会默认下载master分支，给我们一个origin默认的远程地址
 ## 组长负责fork老师的仓库
+- 复制(那一时刻的代码)一份,放到自己的仓库下,老师的代码改变不会影响自己的代码
+- 建立老师为远程仓库
+git remote add teahcer
+git pull teacher master
+
+git push teacher master
+
